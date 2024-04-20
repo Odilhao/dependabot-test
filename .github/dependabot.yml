@@ -10,3 +10,6 @@ updates:
     # Add labels for dependabot bumps
     labels:
       - "dependabot"
+    ignore:
+      - dependency-name: "pulpcore*"
+        update-types: ["version-update:semver-major"]
