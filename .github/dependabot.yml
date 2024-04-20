@@ -12,4 +12,4 @@ updates:
       - "dependabot"
     ignore:
       - dependency-name: "pulpcore"
-        update-types: ["version-update:semver-major"]
+        update-types: ["version-update:semver-minor"]
