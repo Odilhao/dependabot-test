@@ -11,5 +11,8 @@ updates:
     labels:
       - "dependabot"
     ignore:
-      - dependency-name: "*pulpcore"
+      - dependency-name: "pulpcore*"
         update-types: ["version-update:semver-minor"]
+      - dependency-name: "pulp-rpm*"
+        update-types: ["version-update:semver-minor"]
+
